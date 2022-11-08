@@ -79,4 +79,4 @@ Crown TIGER with ROSES
 
 Make WHEAT into BREAD
 
-Result: https://lewis-carroll-word-puzzle.netlify.app/
+Resultat: https://lewis-carroll-word-puzzle.netlify.app/
