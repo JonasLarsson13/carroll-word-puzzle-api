@@ -97,6 +97,11 @@ function checkIfValidWord(word) {
 function handleSubmit() {
     p.innerText = '';
     const word = input.value.toUpperCase();
+    if(word.length !== currentWord.word.length) {
+        p.style.color = 'red';
+        input.value = '';
+        return p.innerText = 'You must enter a word with the same length...'
+    }
     if(word.length === 0 || !/^[a-z]+$/i.test(word)) {
         p.style.color = 'red';
         input.value = '';
